@@ -1,29 +1,37 @@
 /* Base styling */
 body {
-  background: #111;
-  color: #0f0;
-  font-family: monospace;
+  background: #f9f9f9;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
   margin: 2rem;
 }
 
 /* Preformatted ASCII boxes */
 pre {
+  background: #eee;
+  padding: 1rem;
   white-space: pre-wrap;
   margin: 1rem 0;
-  line-height: 1.4;
+  line-height: 1.5;
+  border-radius: 5px;
+  font-family: "Courier New", monospace;
+  color: #222;
 }
 
 /* Section-specific tweaks */
 .title {
-  color: #ff0;
-  font-weight: bold;
+  color: #2a2a2a;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .content {
-  color: #0f0;
+  color: #444;
+  font-size: 1rem;
 }
 
 header, footer {
   text-align: center;
   margin-bottom: 2rem;
+  color: #666;
 }
