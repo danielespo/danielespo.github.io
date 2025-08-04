@@ -1,7 +1,7 @@
 /* Base styling */
 body {
-  background: #f9f9f9;
-  color: #333;
+  background: #000;
+  color: #fff;
   font-family: "Segoe UI", sans-serif;
   font-size: 24px;
   line-height: 1.6;
@@ -9,7 +9,7 @@ body {
 }
 
 pre {
-  background: #eee;
+  background: #222;
   padding: 1.25rem;
   white-space: pre-wrap;
   margin: 1.5rem 0;
@@ -17,25 +17,24 @@ pre {
   border-radius: 6px;
   font-family: "Courier New", monospace;
   font-size: 24px;
-  color: #222;
+  color: #fff;
 }
 
-/* Section-specific tweaks */
 .title {
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
 }
 
 .content {
-  color: #444;
+  color: #ddd;
   font-size: 24px;
 }
 
 header, footer {
   text-align: center;
   margin-bottom: 2rem;
-  color: #666;
+  color: #aaa;
   font-size: 16px;
 }
