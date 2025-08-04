@@ -3,12 +3,11 @@ body {
   background: #f9f9f9;
   color: #333;
   font-family: "Segoe UI", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.6;
   margin: 2rem;
 }
 
-/* Preformatted ASCII boxes */
 pre {
   background: #eee;
   padding: 1.25rem;
@@ -17,13 +16,13 @@ pre {
   line-height: 1.6;
   border-radius: 6px;
   font-family: "Courier New", monospace;
-  font-size: 17px;
+  font-size: 24px;
   color: #222;
 }
 
 /* Section-specific tweaks */
 .title {
-  color: #2a2a2a;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
@@ -31,7 +30,7 @@ pre {
 
 .content {
   color: #444;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 header, footer {
